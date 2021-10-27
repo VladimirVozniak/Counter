@@ -1,0 +1,30 @@
+button {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: 0 3px 0 0 #a7a7a7,
+    0 3px 5px 0 #888888,
+    -3px 4px 2px 0 grey,
+    0 2px 4px 0 grey,
+    inset -3px 3px 5px -2px #eeeeee,
+    inset 2px -1px 3px -2px #656565;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    user-select: none;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 0 1px 0 0 #a7a7a7,
+    0 1px 5px 0 #888888,
+    -2px 3px 1px 0 grey,
+    0 1px 2px 0 grey,
+    inset -3px 3px 5px -2px #ffffff,
+    inset 2px -1px 3px -2px #656565;
+}

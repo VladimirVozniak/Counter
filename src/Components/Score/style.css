@@ -1,0 +1,16 @@
+.info {
+    margin: 5px 0;
+    color: #dadada;
+    text-shadow: 0 1px 7px #2a2a2a,
+    0 1px #9c9c9c,
+    0 2px #727272,
+    0 2px 5px #747474,
+    0 0 2px #5a5a5a,
+    0 2px 2px #5a5a5a,
+    -1px 3px 2px #5a5a5a,
+    -2px 4px 2px #828282,
+    -3px 5px 2px #909090,
+    0 -2px 6px #717171;
+    font-size: x-large;
+    user-select: none;
+}
